@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<head>
+    <title>hello</title>
+    <script>
+        // changetextbyClickingButton.js
+
+    function changeText(){
+        var gettextFromInput = document.getElementById("gettext").value
+        document.getElementById("textChange").innerText = gettextFromInput
+    }
+    </script>
+</head>
+<body>
+    <input id="gettext" type="text" Placeholder="Enter some text">
+    <h1 id="textChange">Hello</h1>
+    <button onclick="changeText()">changeText</button>   
+</body>
+</html>
